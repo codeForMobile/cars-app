@@ -30,6 +30,10 @@ export interface CarProps {
  year: number
 }
 
+export interface HomeProps {
+ searchParams: FilterProps
+}
+
 export interface FilterProps {
  manufacturer: string
  year: number
@@ -46,4 +50,9 @@ export interface customFilterProps {
 export interface OptionsProps {
  title: string
  value: string
+}
+
+export interface ShowMoreProps {
+ pageNumber: number
+ isNext: boolean
 }
