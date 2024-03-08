@@ -5,7 +5,6 @@ import { useState, Fragment } from 'react'
 import { Combobox, Transition } from '@headlessui/react'
 import { searchManufacturerProps } from '@/types'
 import { manufacturers } from '@/constants'
-import { isTemplateMiddle } from 'typescript'
 
 const SearchManufacturer = ({
  manufacturer,

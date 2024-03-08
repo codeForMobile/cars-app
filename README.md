@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## car search engine
 
-## Getting Started.
+A nextjs (v13.4) based search app.
+Primary search is implemented server side.
+Allows server side and client side search.
+Mostly created as a POC to allow further improvements.
 
-First, run the development server:
+### API's integration
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Integrated with `cars-by-api-ninjas` .
+All credits go to the website hosting these api's and the api provider.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Pending/wip work
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Auth is not yet implemented.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Same image is used everywhere, those nice car images does not come free :(
 
-## Learn More
+Many more...
 
-To learn more about Next.js, take a look at the following resources:
+### Config
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Use `.env` to configure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+api_key= your key
 
-## Deploy on Vercel
+api_host= host url from above api provider
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### How to run
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Install deps with your favourite pkg manager.
+
+Configure api keys as above.
+
+Examaple:- with npm
+
+`npm run dev`
+
+and then usual other commands.
+
+### How does it look/work
+
+#### Hoem/landing page
+
+<img
+  src="./landing-page.jpg"
+  alt="home page"
+  style="margin: 0 auto; border-radius:10px"/>
+
+#### Search page
+
+<img
+  src="./search.jpg"
+  alt="Search"
+  style="margin: 0 auto; border-radius:10px"/>
+
+#### Search results page
+
+<img
+  src="./search-server-client.jpg"
+  alt="search results"
+  style="margin: 0 auto; border-radius:10px"/>
